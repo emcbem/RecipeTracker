@@ -1,4 +1,10 @@
-export default {
+/** @type {import('tailwindcss').Config} */
+
+
+module.exports = {
+  content: [
+    './**/*.{tsx,ts,js,jsx}', // Include JS/JSX in case it's used
+  ],
   theme: {
     extend: {
       colors: {
@@ -70,4 +76,5 @@ export default {
       },
     },
   },
+  plugins: []
 };
