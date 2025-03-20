@@ -1,5 +1,5 @@
 import { Meal } from "./meal"
 
-export type RecipeApiSearchResult = {
+export type SearchResult = {
     meals: Meal[]
 }
